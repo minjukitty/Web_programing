@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIARY</title>
+    <script src="./js/sign.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main id="sign-container">
+        <div class="sign-form-wrap">
+            <div class="slogan"><img src="./img/slogan.png"></div>
+            <div class="logo"><img src="./img/logo-w.png"></div>
+
+            <div class="sign-area">
+                <form id="form">
+                    <input type="text" name="id" placeholder="아이디">
+                    <input type="password" name="pwd" placeholder="비밀번호">
+                    <button type="button" class="btn sign-in-button">로그인</button>
+                    <button type="button" class="btn sign-up-button">회원가입</button>
+                    <button type="button" class="btn signback-button">돌아가기</button>
+                </form>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn signin-button" value="signin">로그인</button>
+                <button type="button" class="btn signup-button" value="signup">회원가입</button>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript">
+        
+        var sign = new Sing();
+
+    </script>
+</body>
+</html>
