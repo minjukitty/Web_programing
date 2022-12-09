@@ -78,7 +78,7 @@
         if(_this.signinCheck()){
             _this.member.sign = true;
             localStorage.setItem('diaryMembers', JSON.stringify(_this.member));
-            location.href = 'index.html';
+            location.href = 'main.html';
         } else {
             var formData = _this.getForm();
             if(!formData){
@@ -124,7 +124,7 @@
     this.session = function(){
         _this.getMembers();
         if(_this.member.sign){
-            location.href = 'index.html';
+            location.href = 'main.html';
         }
     }
 
