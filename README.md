@@ -1,6 +1,8 @@
 ## 하루일기 웹 제작
 서울과학기술대학교 컴퓨터공학과 고급웹프로그래밍 과제 입니다.
 
+https://minjukitty.github.io/minjucindy.gihub.io/
+
 
 **1. 일기 작성**
 - 제목 / 내용으로 구분하여 일기 작성이 가능한 웹
